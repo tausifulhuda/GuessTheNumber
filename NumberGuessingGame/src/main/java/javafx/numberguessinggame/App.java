@@ -14,7 +14,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         Parent root=FXMLLoader.load(getClass().getResource("primary.fxml"));
         Scene scene=new Scene(root);
-        Image icon=new Image("file:///C:/Users/tausi/OneDrive/Documents/Education/Programming/JavaFX/NumberGuessingGame/src/main/resources/javafx/numberguessinggame/Icon.png");
+        Image icon=new Image(getClass().getResource("/javafx/numberguessinggame/Logo.png").toExternalForm());
         stage.getIcons().add(icon);
         stage.setTitle("Guess The Number");
         stage.setScene(scene);

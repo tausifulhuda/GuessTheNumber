@@ -57,8 +57,8 @@ public class PrimaryController {
                 computer.setDisable(false);
                 submitbtn.setDisable(true);
             }
-            else if(num<1||num>100)
-                dialog.setText("Please enter a number between 1 to 100.\nAttempt(s) used: "+attempts);
+            else if(num<0||num>100)
+                dialog.setText("Please enter a number between 0 to 100.\nAttempt(s) used: "+attempts);
             else if(num<n)
                 dialog.setText("Increase the number.\nAttempt(s) used: "+attempts); 
             else
