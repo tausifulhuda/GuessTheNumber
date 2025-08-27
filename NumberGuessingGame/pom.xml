@@ -76,11 +76,9 @@
                 <version>3.8.0</version>
                 <configuration>
                     <release>22</release>
-                    <compilerArgs>
-                        <arg>--enable-preview</arg>
-                    </compilerArgs>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 </project>
+
